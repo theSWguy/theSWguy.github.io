@@ -15,7 +15,7 @@ $( document ).ready(function() {
 	});
 
 	$("#goRight-Straight2").click(function() {
-		$("#exploreBody").css("background-image", "url('img/60c4c315d26c88801d8d3858b969a182.jpg')");
+		$("#exploreBody").css("background-image", "url('img/290ca7_3fffcdebaf01b9c3860479c38b32380b.jpg_srz_729_505_85_22_0.50_1.20_0.jpg')");
 		$("#goRight-Straight2").hide();
 		$("#goRight-Straight3").show();
 	});
