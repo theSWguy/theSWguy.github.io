@@ -27,7 +27,7 @@ $( document ).ready(function() {
 	});
 
 	$("#goRight-Right2").click(function() {
-		$("#exploreBody").css("background-image", "url('img/explore2-goBack2.jpg')");
+		$("#exploreBody").css("background-image", "url('img/deadend.jpg')");
 		$("#goRight-Right2").hide();
 		$("#goBack").show();
 	});
