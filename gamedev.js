@@ -2,13 +2,6 @@
 
 $( document ).ready(function() {
 
-	$(document).mousemove(function(e) {
-    $('.gun').offset({
-        left: e.pageX,
-        top: e.pageY + 20
-    }); 
-});
-
 	$("#goRight1").click(function() {
 		$("#exploreBody").css("background-image", "url('img/6a10.jpg')");
 		$("#goRight1").hide();
