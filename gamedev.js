@@ -1,4 +1,4 @@
-$(document).mousemove(function(e) {
+$(exploreBody).mousemove(function(e) {
     $('.gun').offset({
         left: e.pageX,
         top: e.pageY + 20
