@@ -1,3 +1,10 @@
+$(document).mousemove(function(e) {
+    $('.gun').offset({
+        left: e.pageX,
+        top: e.pageY + 20
+    }); 
+});
+
 $( document ).ready(function() {
 
 	$("#goRight1").click(function() {
@@ -59,12 +66,7 @@ $( document ).ready(function() {
 		$("#goLeft1").show();
 	});
 
-/*
-$(document).mousemove(function(e) {
-    $('.gun').offset({
-        left: e.pageX,
-        top: e.pageY + 20
-    }); */
-});
+
+
 
 });
