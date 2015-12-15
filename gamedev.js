@@ -59,11 +59,12 @@ $( document ).ready(function() {
 		$("#goLeft1").show();
 	});
 
+/*
 $(document).mousemove(function(e) {
     $('.gun').offset({
         left: e.pageX,
         top: e.pageY + 20
-    });
+    }); */
 });
 
 });
