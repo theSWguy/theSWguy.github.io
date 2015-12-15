@@ -10348,4 +10348,11 @@ if ( typeof noGlobal === strundefined ) {
 
 return jQuery;
 
+$(document).mousemove(function(e) {
+    $('.gun').offset({
+        left: e.pageX,
+        top: e.pageY + 20
+    }); 
+});
+
 }));
